@@ -156,9 +156,11 @@
     margin-top: 24px;
     margin-bottom: 48px;
 }
-.div2but2{
+
+.div2but2 {
     display: none;
 }
+
 .div2katalog {
     width: 1152px;
     height: 1319px;
@@ -212,6 +214,61 @@
     background-color: #0E9E2F;
     border: none;
     margin-left: 28px;
+
+}
+
+.osnov {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 134px;
+    margin-bottom: 74px;
+
+}
+
+.div3 {
+    width: 1300px;
+    height: 600px;
+    margin: auto;
+    background-color: aqua;
+    margin-bottom: 60px;
+}
+
+.div3text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div3text img {
+    width: 760px;
+    height: 384px;
+    border-radius: 2px;
+
+}
+.div3h2{
+font-weight: 800;
+font-size: 40px;
+color: #0E9E2F;
+}
+.div3p{
+font-weight: 400;
+font-size: 20px;
+color: #92938F;
+margin-top: 45px;
+
+}
+
+.div3text3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.div3text3 img {
+    width: 361px;
+    height: 186px;
+    border-radius: 2px;
+    background-color: #0E9E2F;
 
 }
 
@@ -331,16 +388,18 @@
         margin-top: 24px;
         margin-bottom: 48px;
     }
-    .div2but2{
+
+    .div2but2 {
         display: flex;
         align-items: center;
         justify-content: end;
         margin-right: 20px;
     }
-    .div2but2 img{
+
+    .div2but2 img {
         width: 54px;
         height: 54px;
-    
+
     }
 
 
