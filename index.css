@@ -1,3 +1,205 @@
-*{
+* {
     margin: 0;
+}
+
+.not {
+    display: none;
+}
+
+.div1 {
+    width: 1520px;
+    height: 740px;
+    background-image: url(./Rectangle\ 47.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+.div1bolo1 {
+    padding-top: 27px;
+}
+
+.div1bolo2 {
+    width: 1400px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    background-color: gold;
+}
+
+.div1bolotext {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.logo {
+    width: 226px;
+    height: 40px;
+
+}
+
+.produkt {
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+}
+
+.nomer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    gap: 20px;
+}
+
+.nomer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+    gap: 10px;
+}
+
+.nomer3 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.nomersurat1 {
+    width: 21px;
+    height: 21px;
+}
+
+.nomersurat2 {
+    width: 7px;
+    height: 7px;
+}
+
+.div1texttel {
+    display: none;
+}
+
+.texth1 {
+    font-weight: 500;
+    font-size: 60px;
+    color: white;
+    margin-left: 59px;
+    margin-top: 231px;
+    margin-bottom: 22px;
+}
+
+.textp {
+    font-weight: 400;
+    font-size: 18px;
+    color: #D2D2D2;
+    margin-left: 59px;
+}
+
+.div1but {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div1but button {
+    width: 179px;
+    height: 50px;
+    background-color: #0E9E2F;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 59px;
+    margin-top: 59px;
+}
+
+.div1but img {
+    width: 65.00003051757812px;
+    height: 65.00003051757812px;
+    background-color: white;
+    border-radius: 50px;
+    margin-right: 59px;
+    margin-top: 71px;
+
+
+
+}
+
+@media(max-width:511px) {
+    * {
+        margin: 0;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .div1 {
+        width: 375px;
+        height: 707px;
+        margin: auto;
+        background-size: 100% 100%;
+        background-position: 50% 100%;
+    }
+
+    .div1texttel1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 111px;
+        width: 375px;
+        height: 70px;
+        background-color: #313131;
+
+    }
+
+    .logotel {
+        width: 141px;
+        height: 24px;
+    }
+
+    .logotel2 {
+        width: 33px;
+        height: 18px;
+    }
+
+    .texth1 {
+        margin: 0px;
+        margin-top: 149px;
+        margin-left: 39px;
+        font-weight: bold;
+        font-size: 32px;
+
+    }
+
+    .textp {
+        font-weight: 400;
+        font-size: 16px;
+        color: #D2D2D2;
+        margin-left: 39px;
+        margin-top: 27px;
+    }
+    .div1but{
+        flex-direction: column;
+        
+    }
+    .div1but button {
+        width: 300px;
+        height: 50px;
+         margin-left: 0px;
+        border-radius: 2px;
+    }
+    .div1but img{
+        margin: 0px;
+        margin-left: 306px;
+        margin-top: 82px;
+    }
+
 }
